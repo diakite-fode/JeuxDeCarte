@@ -1,6 +1,6 @@
 package com.formation.java.jeuxdecarte.model;
 
-public enum Rang {
+public enum RangCarte {
 	DEUX (2),
 	TROIS(3),
 	QUATRE(4),
@@ -14,13 +14,13 @@ public enum Rang {
 	ROI(12),
 	AS(13);
 	
-	int rang;
+	int rangCarte;
 	
-	private Rang(int value) {
-		rang = value ;
+	private RangCarte(int valueur) {
+		rangCarte = valueur ;
 	}
 	
-	public int value() {
-		return rang;
+	public int valeur() {
+		return rangCarte;
 	}
 }
